@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Estudante de Front-End</title>
+    <link rel="stylesheet" href="stylo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Menu de Navegação -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Meu<span>Portfólio</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button class="menu-btn" aria-label="Menu">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Olá, eu sou <span>Jaelson Santos</span></h1>
+                <h2>Estudante de Front-End</h2>
+                <p>Aprendendo HTML, CSS e JavaScript para criar soluções incríveis</p>
+                <a href="#projetos" class="btn">Ver Projetos</a>
+            </div>
+            <div class="hero-image">
+                <img src="img/WhatsApp Image 2025-02-25 at 06.38.20.jpeg" alt="Minha foto">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="section-title">Minha <span>Jornada</span></h2>
+            <div class="sobre-content">
+                <div class="sobre-texto">
+                    <p>Sou um estudante determinado de desenvolvimento front-end, atualmente focando em dominar HTML, CSS e JavaScript. Minha paixão por tecnologia me levou a buscar conhecimento diariamente para me tornar um profissional qualificado.</p>
+                    <p>No futuro, planejo expandir meus estudos para <strong>SASS, Bootstrap, ES6, PHP, Orientação a Objetos, MySQL, jQuery, MVC, APIs, IONIC</strong> e muitas outras tecnologias.</p>
+                    <p>Meu objetivo é criar projetos inovadores que possam ajudar pessoas e fazer a diferença na sociedade através da tecnologia.</p>
+                    <div class="assinatura">Determinação + Foco = Sucesso</div>
+                </div>
+                <div class="habilidades">
+                    <h3>Habilidades em Desenvolvimento</h3>
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span>HTML5</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="progress html"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span>CSS3</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="progress css"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="bar">
+                            <div class="progress js"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="projetos">
+        <div class="container">
+            <h2 class="section-title">Meus <span>Projetos</span></h2>
+            <p class="section-subtitle">Confira meus repositórios no GitHub</p>
+            <div class="projetos-grid" id="projetos-container">
+                <!-- Projetos serão inseridos via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Interativo -->
+    <section id="quiz" class="quiz">
+        <div class="container">
+            <h2 class="section-title">Quiz <span>Interativo</span></h2>
+            <p class="section-subtitle">Vamos nos conhecer melhor? Responda 10 perguntas rápidas!</p>
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <div class="quiz-progress" id="quiz-progress"></div>
+                    <h3 id="quiz-pergunta">Pergunta aparecerá aqui</h3>
+                </div>
+                <div class="quiz-options" id="quiz-options">
+                    <!-- Opções serão inseridas via JavaScript -->
+                </div>
+                <div class="quiz-result" id="quiz-result">
+                    <h3 id="quiz-mensagem-final"></h3>
+                    <p id="quiz-descricao-final"></p>
+                    <button id="quiz-reiniciar" class="btn">Jogar Novamente</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Cursos (Afiliados) -->
+    <section id="cursos" class="cursos">
+        <div class="container">
+            <h2 class="section-title">Cursos <span>Recomendados</span></h2>
+            <p class="section-subtitle">Alguns cursos que eu recomendo para quem está começando</p>
+            <div class="cursos-grid">
+                <div class="curso-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Curso 1">
+                    <h3>HTML e CSS Completo</h3>
+                    <p>Domine os fundamentos do desenvolvimento web com este curso completo.</p>
+                    <a href="#" class="btn-curso">Ver Curso</a>
+                </div>
+                <div class="curso-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Curso 2">
+                    <h3>JavaScript Moderno</h3>
+                    <p>Aprenda JavaScript do básico ao avançado com projetos reais.</p>
+                    <a href="#" class="btn-curso">Ver Curso</a>
+                </div>
+                <div class="curso-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Curso 3">
+                    <h3>React do Zero</h3>
+                    <p>Comece com React e crie aplicações modernas e responsivas.</p>
+                    <a href="#" class="btn-curso">Ver Curso</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Vamos <span>Conversar</span></h2>
+            <p class="section-subtitle">Me encontre nas redes sociais</p>
+            <div class="contato-content">
+                <div class="redes-sociais">
+                    <a href="https://github.com/JaelsonS" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jaelson-santos-8628b52a4/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://www.instagram.com/jaelsonsantoos/" class="social-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="tel: " class="social-link">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                    </a>
+                </div>
+                <form class="contato-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Meu Portfólio</h3>
+                    <p>Estudante de Front-End determinado a criar soluções tecnológicas que fazem a diferença.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#quiz">Quiz</a></li>
+                        <li><a href="#cursos">Cursos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Receba Atualizações</h3>
+                    <form>
+                        <input type="email" placeholder="Seu Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="ano"></span> Todos os direitos reservados. Desenvolvido com ❤ por <span>Jaelson Santos</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Metadados básicos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Aspirante a Engenheiro de Software</title>
+    
+    <!-- Links para CSS e favicon -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+    
+    <!-- Fontes do Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barra de navegação -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#inicio" class="logo">MeuPortfólio</a>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button class="menu-mobile" aria-label="Abrir menu">☰</button>
+        </div>
+    </nav>
+
+    <!-- Seção Hero/Banner principal -->
+    <header id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-texto">
+                <h1>Transformando linhas de código em soluções</h1>
+                <p>Estudante dedicado com foco em me tornar um Engenheiro de Software Full Stack</p>
+                <a href="#projetos" class="btn">Ver Projetos</a>
+            </div>
+            <img src="imagens/avatar.jpg" alt="Minha foto" class="hero-avatar">
+        </div>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="secao">
+        <div class="container">
+            <h2 class="titulo-secao">Sobre Mim</h2>
+            <div class="sobre-conteudo">
+                <div class="sobre-texto">
+                    <p>Olá! Sou um estudante apaixonado por tecnologia e atualmente estou em transição de carreira para a área de desenvolvimento de software.</p>
+                    <p>Minha jornada começou com HTML, CSS e JavaScript, e agora estou expandindo meu conhecimento para me tornar um desenvolvedor Full Stack e, posteriormente, um Engenheiro de Software.</p>
+                    <p>Além dos estudos técnicos, tenho me dedicado a entender boas práticas de desenvolvimento, padrões de projeto e arquitetura de software.</p>
+                </div>
+                <div class="sobre-dados">
+                    <div class="dado-item">
+                        <span class="dado-numero">3</span>
+                        <span class="dado-texto">Projetos no GitHub</span>
+                    </div>
+                    <div class="dado-item">
+                        <span class="dado-numero">1000+</span>
+                        <span class="dado-texto">Horas de estudo</span>
+                    </div>
+                    <div class="dado-item">
+                        <span class="dado-numero">5</span>
+                        <span class="dado-texto">Linguagens em aprendizado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="habilidades" class="secao fundo-cinza">
+        <div class="container">
+            <h2 class="titulo-secao">Minhas Habilidades</h2>
+            <div class="habilidades-container">
+                <!-- Habilidades serão inseridas via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="secao">
+        <div class="container">
+            <h2 class="titulo-secao">Meus Projetos</h2>
+            <div class="projetos-container">
+                <!-- Projetos serão inseridos via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="secao fundo-cinza">
+        <div class="container">
+            <h2 class="titulo-secao">Vamos Conversar</h2>
+            <div class="contato-conteudo">
+                <form id="form-contato" class="form-contato">
+                    <div class="form-grupo">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+                <div class="contato-info">
+                    <h3>Outras formas de contato</h3>
+                    <p><strong>Email:</strong> Jaelsonsantos</p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/seu-usuario" target="_blank">github.com/seu-usuario</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/seu-perfil" target="_blank">linkedin.com/in/seu-perfil</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="ano-atual"></span> Meu Portfólio. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><img src="imagens/github-icon.svg" alt="GitHub"></a>
+                <a href="#" aria-label="LinkedIn"><img src="imagens/linkedin-icon.svg" alt="LinkedIn"></a>
+                <a href="#" aria-label="Twitter"><img src="imagens/twitter-icon.svg" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+    <!--JavaScript-->
+    <script src="script.js"></script>
+</body>
+</html>
