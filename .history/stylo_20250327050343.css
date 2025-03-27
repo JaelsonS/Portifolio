@@ -493,7 +493,11 @@ img {
 .curso-card h3 {
     color:var(--cor-texto);
 }
+.btn-curso{
+    display: flexbox;
+    justify-content: ;
 
+}
 .curso-info {
     padding: 20px;
 }

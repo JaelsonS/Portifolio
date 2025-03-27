@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
             titulo: 'Chuva de Meteoros',
             descricao: 'Projeto para treinar a lógica de algoritmo. Projeto em desenvolvimento',
             tecnologias: ['HTML', 'CSS', 'JavaScript'],
-            imagem: 'https://images.unsplash.com/photo-1614642264762-d0a3b8bf3700?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+           // imagem: 'assets/images/projeto2.jpg',
             linkDemo: 'https://jaelsons.github.io/Chuva-de-meteoros/',
             linkCodigo: 'https://github.com/JaelsonS/Chuva-de-meteoros'
         },
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
             titulo: 'PumPay',
             descricao: 'Projeto em desenvolvimento, ideia inicial de quem sabe um novo aplicativo.',
             tecnologias: ['HTML', 'CSS', 'JavaScript'],
-            imagem: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+            imagem: 'assets/images/projeto3.jpg',
             linkDemo: 'jaelsons.github.io/PumPay/',
             linkCodigo: 'https://github.com/JaelsonS/PumPay'
         },
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
             titulo: 'Portfólio',
             descricao: 'Projeto em desenvolvimento, meu 1º portfólio.',
             tecnologias: ['HTML', 'CSS', 'JavaScript'],
-            imagem: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+            imagem: 'assets/images/projeto4.jpg',
             linkDemo: 'jaelsons.github.io/PumPay/',
             linkCodigo: 'https://github.com/JaelsonS/PumPay'
         }

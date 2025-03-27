@@ -490,9 +490,7 @@ img {
     height: 200px;
     object-fit: cover;
 }
-.curso-card h3 {
-    color:var(--cor-texto);
-}
+
 
 .curso-info {
     padding: 20px;
