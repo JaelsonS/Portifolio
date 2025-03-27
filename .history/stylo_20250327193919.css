@@ -511,7 +511,7 @@ img {
 
 .btn-curso {
     display: inline-block;
-    background-color: var(--cor-primaria);
+    background-color: #ff6600;
     color: #fff;
     padding: 10px 15px;
     border-radius: 5px;
