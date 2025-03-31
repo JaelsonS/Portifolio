@@ -95,9 +95,10 @@ document.addEventListener('DOMContentLoaded', function() {
             titulo: 'ImobiliáriaSantos',
             descricao: 'Projeto desenvolvido numa aula da DevMedia.',
             tecnologias: ['HTML', 'CSS', 'JavaScript'],
-            imagem: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
-            linkDemo: 'https://jaelsons.github.io/ImobiliariaSantos/',
-            linkCodigo: 'https://github.com/JaelsonS/ImobiliariaSantos'  
+            imagem: 'https://images.pexels.com/photos/1447434/pexels-photo-1447434.jpeg',
+            linkDemo: '',
+            linkCodigo: 'https://github.com/JaelsonS/ImobiliariaSantos'
+            
     },
     {
         titulo: 'AutoAjudaVida',

@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
             titulo: 'ImobiliáriaSantos',
             descricao: 'Projeto desenvolvido numa aula da DevMedia.',
             tecnologias: ['HTML', 'CSS', 'JavaScript'],
-            imagem: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+            imagem: 'https://br.freepik.com/imagem-ia-gratis/mao-apresentando-modelo-de-casa-para-campanha-de-emprestimo_15667726.htm#fromView=search&page=1&position=6&uuid=2b28e40b-211c-4772-9f70-e534057b891a&query=imobiliaria',
             linkDemo: 'https://jaelsons.github.io/ImobiliariaSantos/',
             linkCodigo: 'https://github.com/JaelsonS/ImobiliariaSantos'  
     },

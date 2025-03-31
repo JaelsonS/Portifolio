@@ -92,21 +92,20 @@ document.addEventListener('DOMContentLoaded', function() {
             linkCodigo: 'https://github.com/JaelsonS/Portifolio'
         },
         {
-            titulo: 'ImobiliáriaSantos',
-            descricao: 'Projeto desenvolvido numa aula da DevMedia.',
-            tecnologias: ['HTML', 'CSS', 'JavaScript'],
-            imagem: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
-            linkDemo: 'https://jaelsons.github.io/ImobiliariaSantos/',
-            linkCodigo: 'https://github.com/JaelsonS/ImobiliariaSantos'  
+        titulo: 'ImobiliáriaSantos',
+        descricao: 'Projeto desenvolvido numa aula da DevMedia.',
+        tecnologias: ['HTML', 'CSS', 'JavaScript'],
+        imagem: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+        linkDemo: 'https://jaelsons.github.io/ImobiliariaSantos/',
+        linkCodigo: 'https://github.com/JaelsonS/ImobiliariaSantos'
     },
     {
         titulo: 'AutoAjudaVida',
         descricao: 'Projeto em desenvolvimento.',
         tecnologias: ['HTML', 'CSS', 'JavaScript'],
-        imagem: 'https://images.pexels.com/photos/936046/pexels-photo-936046.jpeg',
+        imagem: 'https://br.freepik.com/fotos-gratis/maos-dadas-umas-as-outras-para-apoio_43686157.htm#fromView=search&page=1&position=0&uuid=2fabd385-5862-4801-966b-ad2dcc4f17a5&query=Auto+ajuda',
         linkDemo: 'https://jaelsons.github.io/AutoAjuda/',
         linkCodigo: 'https://github.com/JaelsonS/AutoAjuda'
-        
     }
     ];
     

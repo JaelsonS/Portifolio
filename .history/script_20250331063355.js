@@ -91,23 +91,13 @@ document.addEventListener('DOMContentLoaded', function() {
             linkDemo: 'https://jaelsons.github.io/Portifolio/',
             linkCodigo: 'https://github.com/JaelsonS/Portifolio'
         },
-        {
-            titulo: 'ImobiliáriaSantos',
-            descricao: 'Projeto desenvolvido numa aula da DevMedia.',
-            tecnologias: ['HTML', 'CSS', 'JavaScript'],
-            imagem: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
-            linkDemo: 'https://jaelsons.github.io/ImobiliariaSantos/',
-            linkCodigo: 'https://github.com/JaelsonS/ImobiliariaSantos'  
-    },
-    {
-        titulo: 'AutoAjudaVida',
-        descricao: 'Projeto em desenvolvimento.',
+        titulo: 'ImobiliáriaSantos',
+        descricao: 'Projeto em desenvolvimento, meu 1º portfólio.',
         tecnologias: ['HTML', 'CSS', 'JavaScript'],
-        imagem: 'https://images.pexels.com/photos/936046/pexels-photo-936046.jpeg',
-        linkDemo: 'https://jaelsons.github.io/AutoAjuda/',
-        linkCodigo: 'https://github.com/JaelsonS/AutoAjuda'
-        
-    }
+        imagem: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+        linkDemo: 'https://jaelsons.github.io/Portifolio/',
+        linkCodigo: 'https://github.com/JaelsonS/Portifolio'
+
     ];
     
     const projetosContainer = document.getElementById('projetos-container');
