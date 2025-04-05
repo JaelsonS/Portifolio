@@ -17,6 +17,42 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
+    const moodButtons = document.querySelectorAll('.mood-btn');  // Obtém todos os botões de humor.
+    const moodResponse = document.getElementById('moodResponse');  // Obtém o elemento para exibir a resposta ao humor.
+    
+    if (moodButtons.length && moodResponse) {  // Verifica se os botões e o elemento de resposta existem.
+        moodButtons.forEach(button => {  // Para cada botão de humor, adiciona um evento de clique.
+            button.addEventListener('click', function() {  // Adiciona evento de clique a cada botão.
+                const mood = this.getAttribute('data-mood');  // Obtém o valor do atributo 'data-mood' (humor).
+                let response = '';  // Inicializa uma variável para armazenar a resposta.
+                
+                switch(mood) {  // Avalia o valor do humor e define a resposta.
+                    case 'happy':
+                        response = 'Que ótimo que você está feliz hoje! Aproveite esse momento e espalhe essa alegria para as pessoas ao seu redor. A felicidade é contagiante!';
+                        break;
+                    case 'neutral':
+                        response = 'Estar se sentindo normal é completamente okay. Às vezes, é nos momentos de calma que encontramos nossa verdadeira força. Que tal assistir a um dos nossos vídeos motivacionais para dar um up no seu dia?';
+                        break;
+                    case 'sad':
+                        response = 'Sinto muito que você esteja se sentindo assim. Lembre-se que todos os sentimentos são válidos e passageiros. Você é mais forte do que imagina e dias melhores virão. Confira nossa seção de frases motivacionais para encontrar um pouco de inspiração.';
+                        break;
+                    case 'angry':
+                        response = 'A raiva pode ser uma emoção difícil de lidar. Respire fundo, conte até dez e tente encontrar um momento de calma. Você tem todo o direito de sentir o que sente, mas não deixe que isso controle você.';
+                        break;
+                    case 'motivated':
+                        response = 'Isso aí! Com essa motivação você pode conquistar o mundo! Aproveite essa energia para trabalhar em seus objetivos e sonhos. Nada pode parar você agora!';
+                        break;
+                    default:
+                        response = 'Obrigado por compartilhar como você está se sentindo. Esperamos que nosso conteúdo possa ajudar a melhorar ainda mais o seu dia!';
+                }
+                
+                moodResponse.innerHTML = response;  // Atualiza a resposta exibida.
+                moodResponse.classList.remove('fade-in');  // Remove a animação de fade-in existente.
+                void moodResponse.offsetWidth;  // Força um reflow para reiniciar a animação.
+                moodResponse.classList.add('fade-in');  // Adiciona a animação de fade-in à resposta.
+            });
+        });
+    }
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();

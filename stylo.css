@@ -155,6 +155,52 @@ img {
     background-color: var(--cor-primaria);
     transition: var(--transicao);
 }
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center; 
+}
+
+.mood-buttons {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px; 
+    margin-bottom: 30px;
+}
+
+.mood-btn {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border: none;
+    color: var(--white);/* Define a cor do texto como branco */
+    padding: 10px 20px;/* Adiciona preenchimento interno de 10px vertical e 20px horizontal */
+    border-radius: 30px;/* Torna as bordas arredondadas */
+    cursor: pointer;/* Altera o cursor para mãozinha ao passar o mouse */
+    transition: var(--transition);/* Aplica transição suave */
+}
+
+.mood-btn:hover {
+    background-color: var(--white); /* Altera a cor de fundo para branco ao passar o mouse */
+    color: var(--primary-color); /* Altera a cor do texto para a cor primária */
+    box-shadow: var(--shadow); /* Aplica sombra ao botão */
+}
+
+.mood-response {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Cor de fundo com transparência */
+    padding: 20px;
+    /* Espaçamento interno */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    max-width: 600px;
+    /* Largura máxima */
+    margin: 0 auto;
+    /* Centraliza o bloco */
+    font-size: 1.1rem;
+    /* Tamanho da fonte */
+    line-height: 1.6;
+    /* Altura da linha */
+}
 
 .nav-links a:hover::after {
     width: 100%;
