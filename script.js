@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
             menuBtn.classList.remove('ativo');
         });
     });
-    
     const moodButtons = document.querySelectorAll('.mood-btn');  // Obtém todos os botões de humor.
     const moodResponse = document.getElementById('moodResponse');  // Obtém o elemento para exibir a resposta ao humor.
     
