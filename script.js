@@ -16,16 +16,16 @@ document.addEventListener('DOMContentLoaded', function() {
             menuBtn.classList.remove('ativo');
         });
     });
-    const moodButtons = document.querySelectorAll('.mood-btn');  // Obtém todos os botões de humor.
-    const moodResponse = document.getElementById('moodResponse');  // Obtém o elemento para exibir a resposta ao humor.
+    const moodButtons = document.querySelectorAll('.mood-btn');  
+    const moodResponse = document.getElementById('moodResponse');  
     
-    if (moodButtons.length && moodResponse) {  // Verifica se os botões e o elemento de resposta existem.
-        moodButtons.forEach(button => {  // Para cada botão de humor, adiciona um evento de clique.
-            button.addEventListener('click', function() {  // Adiciona evento de clique a cada botão.
-                const mood = this.getAttribute('data-mood');  // Obtém o valor do atributo 'data-mood' (humor).
-                let response = '';  // Inicializa uma variável para armazenar a resposta.
+    if (moodButtons.length && moodResponse) {  
+        moodButtons.forEach(button => {  
+            button.addEventListener('click', function() {  
+                const mood = this.getAttribute('data-mood');  
+                let response = '';  
                 
-                switch(mood) {  // Avalia o valor do humor e define a resposta.
+                switch(mood) {  
                     case 'happy':
                         response = 'Que ótimo que você está feliz hoje! Aproveite esse momento e espalhe essa alegria para as pessoas ao seu redor. A felicidade é contagiante!';
                         break;
@@ -45,10 +45,10 @@ document.addEventListener('DOMContentLoaded', function() {
                         response = 'Obrigado por compartilhar como você está se sentindo. Esperamos que nosso conteúdo possa ajudar a melhorar ainda mais o seu dia!';
                 }
                 
-                moodResponse.innerHTML = response;  // Atualiza a resposta exibida.
-                moodResponse.classList.remove('fade-in');  // Remove a animação de fade-in existente.
-                void moodResponse.offsetWidth;  // Força um reflow para reiniciar a animação.
-                moodResponse.classList.add('fade-in');  // Adiciona a animação de fade-in à resposta.
+                moodResponse.innerHTML = response;  
+                moodResponse.classList.remove('fade-in'); 
+                void moodResponse.offsetWidth;  
+                moodResponse.classList.add('fade-in');  
             });
         });
     }
